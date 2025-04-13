@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std;
 
-<<<<<<< HEAD
-=======
+
 class Node{
     Node* next;
     int data;
@@ -24,8 +23,15 @@ LinkedList::LinkedList(){
     n = 0;
 }
 
->>>>>>> 51e3161 (feat: 링크드리스트 구현)
+
+class Node{
+    Node* next;
+    int data;
+};
+
+
 int main(){
     int a = 1, b = 2;
     cout << a + b;
-}
+
+}// 테스트
